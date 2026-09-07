@@ -1,5 +1,5 @@
 const addBtn = document.getElementById('add')
-const notes = JSON.parse(localStorage.getItem(notes))
+const notes = JSON.parse(localStorage.getItem('notes'))
 
 
 if (notes){
